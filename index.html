@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <title>Текстиль и мебель для интерьера</title>
     <link rel="stylesheet" href="style.css">
+    <!--<link href="//fonts.googleapis.com/css?family=PT+Sans:400&subset=cyrillic" rel="stylesheet" type="text/css">-->
   </head>
   <body>
     <header>
-      <img src="img\logo.svg" alt="Логотип">
+      <div class="logo">
+        <img src="img\logo.svg" <!--width="90" height="90"--> alt="Логотип">
+      </div>
+
+
+
       <p>SCANDI</p>
       <nav class="main-menu">
       <ul>
@@ -78,13 +84,15 @@
       
       <section class="reviews"> 
         <h2 id="reviews">ОТЗЫВЫ</h2> 
-        <p><q>Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+        <blockquote>
+          <p><pre><q>Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
 
-          Работа шла быстро, было очень приятно общаться и взаимодействовать
-          с сотрудниками. Не ожидала, что это будет так легко!
-          
-          Буду советовать и своим друзьям к вам обращаться!</q></p>
-          AHHA БЕЛОВСКАЯ
+            Работа шла быстро, было очень приятно общаться и взаимодействовать
+            с сотрудниками. Не ожидала, что это будет так легко!
+            
+            Буду советовать и своим друзьям к вам обращаться!</q></pre></p>
+        </blockquote>
+          <cite>AHHA БЕЛОВСКАЯ</cite>
           <img src="img\Rectangle 141.jpg" alt="Оформление гостиной.">
           <img src="img\image 62.jpg" alt="Оформление обеденной зоны.">
         </section>
@@ -98,7 +106,7 @@
               Введите телефон: <input type = "phone"><br>
               <button>Оставить заявку</button>
             </form>
-            <button>Оставить заявку</button>
+            <button class="button">Оставить заявку</button>
             <article><img src="img\image 54.png" alt="Map."></article>
           </section>
         
